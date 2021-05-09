@@ -10,7 +10,7 @@ import os
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
         format=u'>> [%(asctime)s] %(message)s',
-        datefmt='%y.%m.%d %H:%M:%S')
+        datefmt='%d.%m.%y %H:%M:%S')
 
     cmd = "python3.6 -u run.py"
     p = None
