@@ -12,7 +12,7 @@ if __name__ == "__main__":
         format=u'>> [%(asctime)s] %(message)s',
         datefmt='%d.%m.%y %H:%M:%S')
 
-    cmd = "python3.6 -u run.py"
+    cmd = "python3.7 run.py"
     p = None
 
     try:
